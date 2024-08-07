@@ -11,6 +11,28 @@
   <title>Convert</title>
 </head>
 <body>
-  
+  <img src="assets/logo.svg" alt="Convert logo">
+
+  <main>
+    <form>
+      <label for="amount">valor</label>
+      <input id="amount" type="text" name="amount"  placeholder="0" required />
+
+      <label for="currency">moeda</label>
+      <select id="currency" name="currency" required>
+        <option value="" disabled selected hidden>Selecione a moeda</option>
+        <option value="USD">Dólar Americano</option>
+        <option value="EUR">Euro</option>
+        <option value="GBP">Libra Esterlina</option>
+      </select>
+
+      <button type="submit">Converter em reais</button>
+    </form>
+
+    <footer>
+      <span id="description">US$ 1 = R$ 4,86</span>
+      <h1 id="result">486,00 Reais</h1>
+    </footer>
+  </main>
 </body>
 </html>
