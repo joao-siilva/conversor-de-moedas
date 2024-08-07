@@ -5,12 +5,12 @@
 }
 
 :root {
-  font-size: 62.5%;
   font-family: "Inter", sans-serif;
+  font-size: 16px;
 }
 
 ::-webkit-scrollbar {
-  width: .8rem;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -28,8 +28,7 @@ body {
   background-image: url("../assets/bg.png");
   background-size: contain;
   color: #f1f2f6;
-  font-size: 1.6rem;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;

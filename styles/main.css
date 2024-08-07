@@ -1,0 +1,13 @@
+main {
+  width: 480px;
+  border-radius: 1.5rem;
+  border: 1px solid #2f3279;
+  overflow-y: hidden;
+}
+
+@media (width <= 80em) {
+  main {
+    --max-width: 375px;
+    width: min(var(--max-width), 100% - 1rem * 2);
+  }
+}
