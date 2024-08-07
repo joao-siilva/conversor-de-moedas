@@ -27,3 +27,9 @@ footer h1 {
   line-height: 3rem;
   word-break: break-all;
 }
+
+@media (width <= 80em) {
+  footer h1 {
+    font-size: 1.6rem;
+  }    
+}
